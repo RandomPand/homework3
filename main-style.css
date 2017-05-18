@@ -72,6 +72,7 @@ nav.sidebar-nav {
 	height: 440px;
 	width: 240px;
 	display: inline-block;
+	vertical-align: top;
 }
 
 nav.sidebar-nav ul {
@@ -109,19 +110,37 @@ nav.sidebar-nav ul {
 	display: inline-block;
 }
 
+img {
+	display: inline-block;
+	margin: 0 2.7rem;
+}
+.article p {
+	margin: 2rem 0;
+}
+
 footer {
 	height: 2.5rem;
+	width: 966px;
+	height: 40px;
 	background-color: #e1e1e1;
 	background-color: #ffffff;
-	background-image: linear-gradient(to top, #e1e1e1 0%, #e1e1e1 100%);
+  background-image: linear-gradient(to top, #e1e1e1 0%, #e1e1e1 100%);
 }
 
 nav.footer-nav ul li {
 	display: inline-block;
 	padding: 1rem 0;
+	margin: 0 1rem;
+}
+
+nav.footer-nav ul li a:hover {
+	color: #2c2c2c;
+	text-decoration: none;
 }
 
 li.copyright {
-	float: right;
-	padding: 1rem;
+	position: absolute;
+  right: 0px;
+  width: 350px;
+  padding: 10px;
 }
